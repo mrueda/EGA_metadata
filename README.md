@@ -4,17 +4,17 @@ ega\_csv2json: A script that parses EGA metadata files and serializes it to json
 
 # SYNOPSIS
 
-ega\_csv2json.pl -i &lt;file.csv> \[-options\]
+    ega_csv2json.pl -i <file.csv> [-options]
 
-     Arguments:                       
-       -i|input                       Metadata txt, csv or tsv file
+      Arguments:                       
+        -i|input                       Metadata txt, csv or tsv file
 
-     Options:
-       -f|format                      Output format [>json|hash]
-       -h|help                        Brief help message
-       -man                           Full documentation
-       -debug                         Print debugging (from 1 to 5, being 5 max)
-       -verbose                       Verbosity on
+      Options:
+        -f|format                      Output format [>json|hash]
+        -h|help                        Brief help message
+        -man                           Full documentation
+        -debug                         Print debugging (from 1 to 5, being 5 max)
+        -verbose                       Verbosity on
 
 # CITATION
 
